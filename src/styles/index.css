@@ -9,3 +9,83 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #27A4C0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100dvh;
+}
+
+.outerPart {
+    width: 150px;
+    height: 330px;
+    background-color: rgb(39, 41, 46);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow:  40px 30px 5px #2394AE;
+    opacity: 1;
+    margin-top: 50px;
+  
+}
+
+.v-line {
+    width: 10px;
+    height: 50px;
+    position: fixed;
+    display: block;
+    margin-left: 70px;
+    background-color: black;
+}
+
+.h-line {
+    width: 100%;
+    height: 10px;
+    position: fixed;
+    margin-left: -895px;
+    background-color: black;
+    box-shadow: 2px 9px 15px 1px black;
+}
+
+/* Container */
+.traffic-light-container {
+    background-color: black;
+    padding: 20px;
+    border-radius: 10px;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Lights */
+.light {
+    width: 60px;
+    height: 60px;
+    margin: 10px 0;
+    border-radius: 50%;
+    background-color: gray;
+    opacity: 0.3;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.green {
+    background-color: green;
+}
+
+/* Selected light */
+.selected {
+    opacity: 1;
+    box-shadow: 0 0 20px white;
+}
