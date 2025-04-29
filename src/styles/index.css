@@ -13,6 +13,8 @@ body {
     margin: 0;
     padding: 0;
     background-color: #27A4C0;
+    background-image: linear-gradient(45deg, #27A4C070 70%, #e5e5f730 30%);
+    background-size: 10px 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -35,16 +37,18 @@ body {
     width: 10px;
     height: 50px;
     position: fixed;
-    display: block;
+    display: flex;
     margin-left: 70px;
     background-color: black;
+    box-shadow: 4px 5px 10px black;
 }
 
 .h-line {
-    width: 100%;
+    width: 100dvw;
     height: 10px;
     position: fixed;
-    margin-left: -895px;
+    display: flex;
+    margin-left: -885px;
     background-color: black;
     box-shadow: 2px 9px 15px 1px black;
 }
