@@ -18,7 +18,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100dvh;
+    height: 100%;
+    width: 100%;
 }
 
 .outerPart {
@@ -29,26 +30,21 @@ body {
     border-radius: 10px;
     box-shadow:  40px 30px 5px #2394AE;
     opacity: 1;
-    margin-top: 50px;
-  
 }
 
 .v-line {
     width: 10px;
     height: 50px;
-    position: fixed;
     display: flex;
-    margin-left: 70px;
     background-color: black;
     box-shadow: 4px 5px 10px black;
 }
 
 .h-line {
+    margin-top: 179px;
     width: 100dvw;
     height: 10px;
-    position: fixed;
     display: flex;
-    margin-left: -885px;
     background-color: black;
     box-shadow: 2px 9px 15px 1px black;
 }

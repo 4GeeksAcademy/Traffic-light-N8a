@@ -20,9 +20,9 @@ const Home = () => {
 	}, []);
 
 	return (
-		<>
-		<div className="v-line"></div>
+		<div className="h-100 w-100 d-flex flex-column align-items-center">
 		<div className="h-line"></div>
+		<div className="v-line"></div>
 		<div className="outerPart">
 		<div className="traffic-light-container">
             <div 
@@ -39,7 +39,7 @@ const Home = () => {
 						
 				
 		</div></div>
-		</>
+		</div>
 	);
 
 };
